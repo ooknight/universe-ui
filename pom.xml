@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.ooknight</groupId>
+    <artifactId>universe-ui</artifactId>
+    <version>1.0.1</version>
+    <packaging>pom</packaging>
+
+    <name>universe ui</name>
+    <description>universe ui</description>
+    <url>https://github.com/ooknight/universe-ui</url>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License (GPL) version 3.0</name>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>ooknight</name>
+            <email>ooknight@163.com</email>
+            <url>https://github.com/ooknight</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:ooknight/universe-ui.git</connection>
+        <url>https://github.com/ooknight/universe-ui</url>
+    </scm>
+
+    <properties>
+        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>axios</module>
+        <module>bootstrap</module>
+        <module>bootstrap4</module>
+        <module>bootstrap3</module>
+        <module>bootstrap-icons</module>
+        <module>jquery</module>
+        <module>jquery2</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>3.0.1</version>
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.8</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId>
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
