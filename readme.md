@@ -8,7 +8,7 @@ universe ui
 <dependency>
     <groupId>io.github.ooknight</groupId>
     <artifactId>axios</artifactId>
-    <version>0.21.1.0</version>
+    <version>0.21.1.111</version>
 </dependency>
 ```
 ```html
@@ -19,7 +19,7 @@ universe ui
 <dependency>
     <groupId>io.github.ooknight</groupId>
     <artifactId>bootstrap</artifactId>
-    <version>5.0.2.0</version>
+    <version>5.1.1.111</version>
 </dependency>
 ```
 ```html
@@ -34,7 +34,7 @@ or
 <dependency>
     <groupId>io.github.ooknight</groupId>
     <artifactId>bootstrap4</artifactId>
-    <version>4.6.0.0</version>
+    <version>4.6.0.111</version>
 </dependency>
 ```
 ```html
@@ -49,7 +49,7 @@ or
 <dependency>
     <groupId>io.github.ooknight</groupId>
     <artifactId>bootstrap3</artifactId>
-    <version>3.4.1.0</version>
+    <version>3.4.1.111</version>
 </dependency>
 ```
 ```html
@@ -62,7 +62,7 @@ or
 <dependency>
     <groupId>io.github.ooknight</groupId>
     <artifactId>bootstrap-icons</artifactId>
-    <version>1.5.0.0</version>
+    <version>1.5.0.111</version>
 </dependency>
 ```
 ```html
@@ -73,7 +73,7 @@ or
 <dependency>
     <groupId>io.github.ooknight</groupId>
     <artifactId>jquery</artifactId>
-    <version>3.6.0.0</version>
+    <version>3.6.0.111</version>
 </dependency>
 ```
 ```html
@@ -86,7 +86,7 @@ or
 <dependency>
     <groupId>io.github.ooknight</groupId>
     <artifactId>jquery2</artifactId>
-    <version>2.2.4.0</version>
+    <version>2.2.4.111</version>
 </dependency>
 ```
 ```html
